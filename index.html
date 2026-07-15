@@ -4,265 +4,199 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="google-site-verification" content="xDNWUvx6Q5EWK5YYSyKvK8DZTmvXhKsGX203Ll-BFFE">
-    <meta name="description" content="Hyunwoo Ha is a Ph.D. student working on physical AI, computer vision, and multimodal learning.">
+    <meta name="description" content="Hyunwoo Ha's academic homepage.">
     <title>Hyunwoo Ha</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./script/functions.js"></script>
   </head>
   <body>
-    <header class="site-header">
-      <nav class="nav shell" aria-label="Primary navigation">
-        <a class="wordmark" href="#top">Hyunwoo Ha</a>
-        <div class="nav-links">
-          <a href="#research">Research</a>
-          <a href="#experience">Experience</a>
-          <a href="#service">Service</a>
-        </div>
-      </nav>
-    </header>
+    <main class="container">
+      <section class="intro">
+        <h1>Hyunwoo Ha</h1>
+        <img src="./media/profile.png" width="180" height="180" alt="Hyunwoo Ha's profile image">
+        <p>
+          I am a Ph.D. student in Electrical Engineering at <a href="https://www.postech.ac.kr/eng/">POSTECH</a>, advised by Prof. <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>. I work with the <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab</a> at KAIST.
+        </p>
+        <p>
+          My research interests lie in physical AI and visual intelligence, including motion understanding, robust perception, 3D reconstruction, and multimodal learning.
+        </p>
+        <p class="profile-links">
+          <a class="a_more" href="mailto:hyunwooha@postech.ac.kr">hyunwooha@postech.ac.kr</a> |
+          <a class="a_more" href="https://www.overleaf.com/read/yqphtpynzzgq#d747fa">CV</a> |
+          <a class="a_more" href="https://scholar.google.com/citations?hl=en&amp;user=AkYhaiQAAAAJ">Google Scholar</a> |
+          <a class="a_more" href="https://github.com/hyunwoo-ha">GitHub</a> |
+          <a class="a_more" href="https://www.linkedin.com/in/hyun-woo-ha-7aa450200/">LinkedIn</a>
+        </p>
+      </section>
 
-    <main id="top" class="shell">
-      <section class="intro" aria-labelledby="intro-title">
-        <div class="intro-copy">
-          <p class="eyebrow">Computer Vision · Physical AI</p>
-          <h1 id="intro-title">Hyunwoo Ha</h1>
-          <p class="lead">
-            I am a Ph.D. student in Electrical Engineering at <a href="https://www.postech.ac.kr/eng/">POSTECH</a>, advised by Prof. <a href="https://ami.kaist.ac.kr/members/tae-hyun-oh">Tae-Hyun Oh</a>. I work with the <a href="https://ami.kaist.ac.kr/">Advanced Machine Intelligence Lab</a> at KAIST.
-          </p>
+      <section class="text-section">
+        <h2>News</h2>
+        <div class="custom-bullet"><b>07/2026</b> Our paper <a href="https://fastdmm.github.io/">Fast-MM</a> was published in TMLR.</div>
+        <div class="custom-bullet"><b>2026</b> Our papers <a href="https://la-cd.github.io/">LA-CD</a> and <a href="https://darkqa-benchmark.github.io/">DarkQA</a> were published in IEEE RA-L.</div>
+        <div class="custom-bullet"><b>11/2024</b> Our paper <a href="https://metta3d.github.io/">MeTTA</a> received the Best Poster Award at BMVC 2024.</div>
+        <div class="custom-bullet"><b>07/2024</b> Our paper <a href="https://axial-momag.github.io/axial-momag/">Learning-based Axial Motion Magnification</a> was accepted to ECCV 2024.</div>
+        <div class="custom-bullet"><b>06/2023</b> Our paper <a href="https://sound2scene.github.io/">Sound2Scene</a> was presented at CVPR 2023.</div>
+      </section>
+
+      <section class="text-section">
+        <h2>Education</h2>
+        <div class="list-item custom-bullet">
+          <b>POSTECH, Electrical Engineering</b><span class="date">2023 - Present</span><br>
+          <span class="detail">Ph.D. Student, advised by Prof. Tae-Hyun Oh.</span>
+        </div>
+        <div class="list-item custom-bullet">
+          <b>POSTECH, Electrical Engineering</b><span class="date">2021 - 2023</span><br>
+          <span class="detail">M.S., advised by Prof. Tae-Hyun Oh.</span>
+        </div>
+        <div class="list-item custom-bullet">
+          <b>POSTECH, Electrical Engineering</b><span class="date">2016 - 2021</span><br>
+          <span class="detail">B.S.</span>
+        </div>
+      </section>
+
+      <section class="text-section">
+        <h2>Research Experiences</h2>
+        <div class="list-item custom-bullet">
+          <b>RIST</b>, Pohang, Korea<span class="date">2021 - 2023</span><br>
+          <span class="detail">Student Researcher.</span>
+        </div>
+        <div class="list-item custom-bullet">
+          <b>AMI Lab, POSTECH</b>, Pohang, Korea<span class="date">2020 - 2021</span><br>
+          <span class="detail">Undergraduate Research Student, advised by Prof. Tae-Hyun Oh.</span>
+        </div>
+        <div class="list-item custom-bullet">
+          <b>LG Display</b>, South Korea<span class="date">2019</span><br>
+          <span class="detail">Undergraduate Intern.</span>
+        </div>
+      </section>
+
+      <section class="publications">
+        <h2>Publications</h2>
+
+        <article class="item">
+          <a class="media" href="https://fastdmm.github.io/"><img src="./media/research/fastdmm.png" alt="Fast-MM speed and quality comparison" loading="lazy"></a>
           <p>
-            My research interests center on physical AI and visual intelligence, with an emphasis on motion understanding, robust perception, 3D reconstruction, and multimodal learning.
+            <b>Revisiting Learning-based Video Motion Magnification for Real-time Processing</b><br>
+            <u>Hyunwoo Ha*</u>, Oh Hyun-Bin*, Kim Jun-Seong, Kwon Byung-Ki, Kim Sung-Bin, Linh-Tam Tran, Ji-Yun Kim, Sung-Ho Bae, Tae-Hyun Oh<br>
+            <i>Transactions on Machine Learning Research (TMLR), 2026</i><br>
+            <a href="https://fastdmm.github.io/">Project page</a> |
+            <a href="https://arxiv.org/abs/2403.01898">Paper</a> |
+            <a href="https://openreview.net/forum?id=TAmmPuExE1">OpenReview</a> |
+            <a href="https://github.com/kaist-ami/Fast-MM">Code (Coming Soon)</a>
           </p>
-          <div class="profile-links" aria-label="Profile links">
-            <a href="mailto:hyunwooha@postech.ac.kr">Email</a>
-            <a href="https://www.overleaf.com/read/yqphtpynzzgq#d747fa">CV</a>
-            <a href="https://scholar.google.com/citations?hl=en&amp;user=AkYhaiQAAAAJ">Google Scholar</a>
-            <a href="https://github.com/hyunwoo-ha">GitHub</a>
-            <a href="https://www.linkedin.com/in/hyun-woo-ha-7aa450200/">LinkedIn</a>
-          </div>
-        </div>
-        <img class="profile-photo" src="./media/profile.png" alt="Hyunwoo Ha's profile image" width="420" height="420">
+        </article>
+
+        <article class="item">
+          <a class="media" href="https://la-cd.github.io/"><img src="./media/research/lacd.png" alt="LA-CD overview" loading="lazy"></a>
+          <p>
+            <b>LiDAR-Anchored Collaborative Distillation for Robust 2D Representations</b><br>
+            Wonjun Jo, <u>Hyunwoo Ha</u>, Kim Ji-Yeon, Hawook Jeong, Tae-Hyun Oh<br>
+            <i>IEEE Robotics and Automation Letters (RA-L), 2026</i><br>
+            <a href="https://la-cd.github.io/">Project page</a> |
+            <a href="https://arxiv.org/abs/2602.12524">Paper</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <a class="media" href="https://darkqa-benchmark.github.io/"><img src="./media/research/darkqa.png" alt="DarkQA benchmark examples" loading="lazy"></a>
+          <p>
+            <b>DarkQA: Benchmarking Vision-Language Models on Visual-Primitive Question Answering in Low-Light Indoor Scenes</b><br>
+            Yohan Park, <u>Hyunwoo Ha</u>, Wonjun Jo, Tae-Hyun Oh<br>
+            <i>IEEE Robotics and Automation Letters (RA-L), 2026</i><br>
+            <a href="https://darkqa-benchmark.github.io/">Project page</a> |
+            <a href="https://arxiv.org/abs/2512.24985">Paper</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <span class="media"><img src="./media/research/fine-tuning-drifts.png" alt="Policy drift mitigation overview" loading="lazy"></span>
+          <p>
+            <b>When Fine-Tuning Drifts: Mitigating Policy Drift with Base Action-Field Regularization</b><br>
+            Wonjun Jo, Nam Hyeon-Woo, Yohan Park, <u>Hyunwoo Ha</u>, Tae-Hyun Oh<br>
+            <i>Under review</i>
+          </p>
+        </article>
+
+        <article class="item">
+          <span class="media"><img src="./media/research/collaborative-distillation.png" alt="Collaborative distillation overview" loading="lazy"></span>
+          <p>
+            <b>Self-Supervised Collaborative Distillation: Enhancing Lighting Robustness and 3D Awareness</b><br>
+            Wonjun Jo, <u>Hyunwoo Ha</u>, Kim Ji-Yeon, Hawook Jeong, Tae-Hyun Oh<br>
+            <i>ICCV Workshop on Wild3D, 2025</i><br>
+            <a href="https://openreview.net/forum?id=i1JDHqVzmv">Paper</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <a class="media" href="https://metta3d.github.io/"><img src="./media/research/metta.png" alt="MeTTA reconstruction results" loading="lazy"></a>
+          <p>
+            <b>MeTTA: Single-View to 3D Textured Mesh Reconstruction with Test-Time Adaptation</b><br>
+            Kim Yu-Ji, <u>Hyunwoo Ha</u>, Kim Youwang, Jaeheung Surh, Hyowon Ha&dagger;, Tae-Hyun Oh&dagger;<br>
+            <i>BMVC, 2024 <span class="award">(Best Poster Award)</span></i><br>
+            <a href="https://metta3d.github.io/">Project page</a> |
+            <a href="https://arxiv.org/abs/2408.11465">Paper</a> |
+            <a href="https://github.com/postech-ami/MeTTA">Code</a> |
+            <a href="https://www.youtube.com/watch?v=62r7kJ2hRZc">Video</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <a class="media" href="https://axial-momag.github.io/axial-momag/"><img src="./media/research/axial-momag.png" alt="Axial motion magnification architecture" loading="lazy"></a>
+          <p>
+            <b>Learning-based Axial Motion Magnification</b><br>
+            Kwon Byung-Ki, Oh Hyun-Bin, Kim Jun-Seong, <u>Hyunwoo Ha</u>, Tae-Hyun Oh<br>
+            <i>ECCV, 2024</i><br>
+            <a href="https://axial-momag.github.io/axial-momag/">Project page</a> |
+            <a href="https://arxiv.org/abs/2312.09551">Paper</a> |
+            <a href="https://github.com/postech-ami/Axial-mm">Code</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <a class="media" href="https://sound2scene.github.io/"><img src="./media/research/sound2scene.png" alt="Sound2Scene results" loading="lazy"></a>
+          <p>
+            <b>Sound to Visual Scene Generation by Audio-to-Visual Latent Alignment</b><br>
+            Kim Sung-Bin, Arda Senocak, <u>Hyunwoo Ha</u>, Andrew Owens, Tae-Hyun Oh<br>
+            <i>CVPR, 2023</i><br>
+            <a href="https://sound2scene.github.io/">Project page</a> |
+            <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Sung-Bin_Sound_to_Visual_Scene_Generation_by_Audio-to-Visual_Latent_Alignment_CVPR_2023_paper.html">Paper</a> |
+            <a href="https://github.com/postech-ami/Sound2Scene">Code</a> |
+            <a href="https://youtu.be/XETgkM22n6s">Video</a>
+          </p>
+        </article>
+
+        <article class="item">
+          <span class="media paper-placeholder">KLT</span>
+          <p>
+            <b>Mask-KLT: Sub-pixel Accurate Directional Motion Estimation by Stripe Masking</b><br>
+            <u>Hyunwoo Ha</u>, Tae-Hyun Oh<br>
+            <i>VCIP, 2023</i><br>
+            <a href="https://doi.org/10.1109/VCIP59821.2023.10402792">Paper</a>
+          </p>
+        </article>
+
+        <p class="note">* Equal contribution. &dagger; Corresponding author.</p>
       </section>
 
-      <section class="highlights" aria-labelledby="highlights-title">
-        <h2 id="highlights-title">Highlights</h2>
-        <div class="highlight-list">
-          <p><time datetime="2026-07">07/2026</time> <a href="https://openreview.net/forum?id=TAmmPuExE1">Fast-MM</a> was published in TMLR.</p>
-          <p><time datetime="2026">2026</time> Two papers on robust visual perception, <a href="https://la-cd.github.io/">LA-CD</a> and <a href="https://darkqa-benchmark.github.io/">DarkQA</a>, were published in IEEE RA-L.</p>
-          <p><time datetime="2024-11">11/2024</time> <a href="https://metta3d.github.io/">MeTTA</a> received the Best Poster Award at BMVC 2024.</p>
-        </div>
+      <section class="text-section">
+        <h2>Awards and Honors</h2>
+        <ul>
+          <li>Best Poster Award, BMVC 2024</li>
+          <li>Best Paper Award, IPIU 2023</li>
+        </ul>
       </section>
 
-      <section id="research" class="section" aria-labelledby="research-title">
-        <div class="section-heading">
-          <p class="section-kicker">Selected work</p>
-          <h2 id="research-title">Research</h2>
-        </div>
-
-        <div class="publications">
-          <article class="publication">
-            <a class="publication-media" href="https://fastdmm.github.io/" aria-label="Fast-MM project page">
-              <img src="./media/research/fastdmm.png" alt="Fast-MM speed and quality comparison" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">TMLR 2026</p>
-              <h3>Revisiting Learning-based Video Motion Magnification for Real-time Processing</h3>
-              <p class="authors"><strong>Hyunwoo Ha*</strong>, Oh Hyun-Bin*, Kim Jun-Seong, Kwon Byung-Ki, Kim Sung-Bin, Linh-Tam Tran, Ji-Yun Kim, Sung-Ho Bae, Tae-Hyun Oh</p>
-              <p class="summary">A learning-based video motion magnification model that runs in real time on Full-HD video.</p>
-              <div class="paper-links">
-                <a href="https://fastdmm.github.io/">Project</a>
-                <a href="https://arxiv.org/abs/2403.01898">arXiv</a>
-                <a href="https://openreview.net/forum?id=TAmmPuExE1">OpenReview</a>
-                <a href="https://github.com/kaist-ami/Fast-MM">Code <span>coming soon</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <a class="publication-media" href="https://la-cd.github.io/" aria-label="LA-CD project page">
-              <img src="./media/research/lacd.png" alt="LiDAR-Anchored Collaborative Distillation overview" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">IEEE RA-L 2026</p>
-              <h3>LiDAR-Anchored Collaborative Distillation for Robust 2D Representations</h3>
-              <p class="authors">Wonjun Jo, <strong>Hyunwoo Ha</strong>, Kim Ji-Yeon, Hawook Jeong, Tae-Hyun Oh</p>
-              <p class="summary">LiDAR guidance improves the robustness and generalization of self-supervised visual representations.</p>
-              <div class="paper-links">
-                <a href="https://la-cd.github.io/">Project</a>
-                <a href="https://arxiv.org/abs/2602.12524">Paper</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <a class="publication-media" href="https://darkqa-benchmark.github.io/" aria-label="DarkQA project page">
-              <img src="./media/research/darkqa.png" alt="DarkQA benchmark examples" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">IEEE RA-L 2026</p>
-              <h3>DarkQA: Benchmarking Vision-Language Models on Visual-Primitive Question Answering in Low-Light Indoor Scenes</h3>
-              <p class="authors">Yohan Park, <strong>Hyunwoo Ha</strong>, Wonjun Jo, Tae-Hyun Oh</p>
-              <p class="summary">A benchmark for embodied vision-language models under low-light conditions.</p>
-              <div class="paper-links">
-                <a href="https://darkqa-benchmark.github.io/">Project</a>
-                <a href="https://arxiv.org/abs/2512.24985">Paper</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <div class="publication-media">
-              <img src="./media/research/fine-tuning-drifts.png" alt="Policy drift mitigation overview" loading="lazy">
-            </div>
-            <div class="publication-copy">
-              <p class="venue">Under review</p>
-              <h3>When Fine-Tuning Drifts: Mitigating Policy Drift with Base Action-Field Regularization</h3>
-              <p class="authors">Wonjun Jo, Nam Hyeon-Woo, Yohan Park, <strong>Hyunwoo Ha</strong>, Tae-Hyun Oh</p>
-              <p class="summary">Base action-field regularization for robust few-shot fine-tuning of pretrained robot policies.</p>
-            </div>
-          </article>
-
-          <article class="publication">
-            <div class="publication-media">
-              <img src="./media/research/collaborative-distillation.png" alt="Collaborative distillation method overview" loading="lazy">
-            </div>
-            <div class="publication-copy">
-              <p class="venue">ICCV Wild3D Workshop 2025</p>
-              <h3>Self-Supervised Collaborative Distillation: Enhancing Lighting Robustness and 3D Awareness</h3>
-              <p class="authors">Wonjun Jo, <strong>Hyunwoo Ha</strong>, Kim Ji-Yeon, Hawook Jeong, Tae-Hyun Oh</p>
-              <p class="summary">Collaborative distillation for lighting-robust and 3D-aware visual representations.</p>
-              <div class="paper-links">
-                <a href="https://openreview.net/forum?id=i1JDHqVzmv">Paper</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <a class="publication-media" href="https://metta3d.github.io/" aria-label="MeTTA project page">
-              <img src="./media/research/metta.png" alt="MeTTA single-view 3D reconstruction results" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">BMVC 2024 · Best Poster Award</p>
-              <h3>MeTTA: Single-View to 3D Textured Mesh Reconstruction with Test-Time Adaptation</h3>
-              <p class="authors">Kim Yu-Ji, <strong>Hyunwoo Ha</strong>, Kim Youwang, Jaeheung Surh, Hyowon Ha†, Tae-Hyun Oh†</p>
-              <p class="summary">Test-time adaptation for reconstructing textured 3D meshes from a single image.</p>
-              <div class="paper-links">
-                <a href="https://metta3d.github.io/">Project</a>
-                <a href="https://arxiv.org/abs/2408.11465">Paper</a>
-                <a href="https://github.com/postech-ami/MeTTA">Code</a>
-                <a href="https://www.youtube.com/watch?v=62r7kJ2hRZc">Video</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <a class="publication-media" href="https://axial-momag.github.io/axial-momag/" aria-label="Axial motion magnification project page">
-              <img src="./media/research/axial-momag.png" alt="Axial motion magnification architecture" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">ECCV 2024</p>
-              <h3>Learning-based Axial Motion Magnification</h3>
-              <p class="authors">Kwon Byung-Ki, Oh Hyun-Bin, Kim Jun-Seong, <strong>Hyunwoo Ha</strong>, Tae-Hyun Oh</p>
-              <p class="summary">Learning to magnify subtle motion along a user-specified axis.</p>
-              <div class="paper-links">
-                <a href="https://axial-momag.github.io/axial-momag/">Project</a>
-                <a href="https://arxiv.org/abs/2312.09551">Paper</a>
-                <a href="https://github.com/postech-ami/Axial-mm">Code</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication">
-            <a class="publication-media" href="https://sound2scene.github.io/" aria-label="Sound2Scene project page">
-              <img src="./media/research/sound2scene.png" alt="Sound2Scene generated visual scenes" loading="lazy">
-            </a>
-            <div class="publication-copy">
-              <p class="venue">CVPR 2023</p>
-              <h3>Sound to Visual Scene Generation by Audio-to-Visual Latent Alignment</h3>
-              <p class="authors">Kim Sung-Bin, Arda Senocak, <strong>Hyunwoo Ha</strong>, Andrew Owens, Tae-Hyun Oh</p>
-              <p class="summary">Generating diverse visual scenes from environmental sounds through cross-modal latent alignment.</p>
-              <div class="paper-links">
-                <a href="https://sound2scene.github.io/">Project</a>
-                <a href="https://openaccess.thecvf.com/content/CVPR2023/html/Sung-Bin_Sound_to_Visual_Scene_Generation_by_Audio-to-Visual_Latent_Alignment_CVPR_2023_paper.html">Paper</a>
-                <a href="https://github.com/postech-ami/Sound2Scene">Code</a>
-                <a href="https://youtu.be/XETgkM22n6s">Video</a>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication compact-publication">
-            <div class="publication-index" aria-hidden="true">KLT</div>
-            <div class="publication-copy">
-              <p class="venue">VCIP 2023</p>
-              <h3>Mask-KLT: Sub-pixel Accurate Directional Motion Estimation by Stripe Masking</h3>
-              <p class="authors"><strong>Hyunwoo Ha</strong>, Tae-Hyun Oh</p>
-              <p class="summary">Sub-pixel accurate directional motion tracking through stripe masking.</p>
-              <div class="paper-links">
-                <a href="https://doi.org/10.1109/VCIP59821.2023.10402792">Paper</a>
-              </div>
-            </div>
-          </article>
-        </div>
-        <p class="contribution-note">* Equal contribution. † Corresponding author.</p>
+      <section class="text-section">
+        <h2>Academic Services</h2>
+        <ul>
+          <li>Reviewer, IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024</li>
+          <li>Reviewer, IEIE Transactions on Smart Processing and Computing, 2023</li>
+        </ul>
       </section>
 
-      <section id="experience" class="section split-section" aria-labelledby="experience-title">
-        <div class="section-heading">
-          <p class="section-kicker">Background</p>
-          <h2 id="experience-title">Experience</h2>
-        </div>
-        <div class="timeline-columns">
-          <div>
-            <h3>Education</h3>
-            <div class="timeline-item">
-              <p><strong>POSTECH, Electrical Engineering</strong></p>
-              <p>Ph.D. student · 2023–Present</p>
-              <p>M.S. · 2021–2023</p>
-              <p>B.S. · 2016–2021</p>
-            </div>
-          </div>
-          <div>
-            <h3>Research &amp; Industry</h3>
-            <div class="timeline-item">
-              <p><strong>RIST</strong>, Student Researcher</p>
-              <p>2021–2023 · Pohang, Korea</p>
-            </div>
-            <div class="timeline-item">
-              <p><strong>AMI Lab, POSTECH</strong>, Undergraduate Researcher</p>
-              <p>2020–2021</p>
-            </div>
-            <div class="timeline-item">
-              <p><strong>LG Display</strong>, Undergraduate Intern</p>
-              <p>2019</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="service" class="section split-section" aria-labelledby="service-title">
-        <div class="section-heading">
-          <p class="section-kicker">Community</p>
-          <h2 id="service-title">Awards &amp; Service</h2>
-        </div>
-        <div class="timeline-columns">
-          <div>
-            <h3>Awards</h3>
-            <ul class="plain-list">
-              <li>Best Poster Award, BMVC 2024</li>
-              <li>Best Paper Award, IPIU 2023</li>
-            </ul>
-          </div>
-          <div>
-            <h3>Reviewing</h3>
-            <ul class="plain-list">
-              <li>CVPR 2024</li>
-              <li>IEIE Transactions on Smart Processing and Computing, 2023</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      <footer class="outro">
+        Last updated July 2026. Template adapted from <a href="https://changilkim.com/">this website</a>.
+      </footer>
     </main>
-
-    <footer class="footer shell">
-      <p>Hyunwoo Ha · Last updated July 2026</p>
-    </footer>
   </body>
 </html>
